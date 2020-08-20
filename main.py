@@ -11,6 +11,7 @@ def main():
     plt.plot(x,y)
     plt.title('y = Sin(x)')
     plt.show()
+    plt.title('X --> Y')
 
 if __name__ == "__main__":
     main()
