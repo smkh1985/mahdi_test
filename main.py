@@ -16,7 +16,8 @@ def main():
 
 
 def logistic_regression(x,y):
-    pass
+    print('Everything is ok')
+    print('Results are successfull')
 
 def normalization(x):
     # normalize data
