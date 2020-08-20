@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np 
 
 from matplotlib import pyplot as plt 
+import os
 
 
 def main():
@@ -15,4 +16,6 @@ def main():
     plt.show()
     
 if __name__ == "__main__":
+    if os.path.exists('Folder'):
+        print('directory is ok')
     main()
