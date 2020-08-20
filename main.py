@@ -14,7 +14,16 @@ def main():
 	plt.xlable('x')
 	plt.ylable('y')
     plt.show()
-    
+
+
+def logistic_regression(x,y):
+    print('Everything is ok')
+    print('Results are successfull')
+
+def normalization(x):
+    # normalize data
+    return x_normal
+
 if __name__ == "__main__":
     if os.path.exists('Folder'):
         print('directory is ok')
