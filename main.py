@@ -13,6 +13,14 @@ def main():
 	plt.xlable('x')
 	plt.ylable('y')
     plt.show()
-    
+
+
+def logistic_regression(x,y):
+    pass
+
+def normalization(x):
+    # normalize data
+    return x_normal
+
 if __name__ == "__main__":
     main()
