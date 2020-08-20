@@ -10,6 +10,7 @@ def main():
     y = np.sin(x)
     plt.plot(x,y)
     plt.show()
+    plt.title('X --> Y')
 
 if __name__ == "__main__":
     main()
